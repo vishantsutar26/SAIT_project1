@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+#sait{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+header{
+    height: 60px;
+    background-color: #0f1111;
+    justify-content: center;
+    align-items: center;
+}
+#outer{
+    height: 500px;
+    width: 500px;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+#innerO{
+    height: 200px;
+    width: 200px;
+    background-image: url(python.png);
+    background-size: cover;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 45px;
+}
+#inner1{
+    height: 35px;
+    width: 150px;
+    background-color: aliceblue;
+    position: absolute;
+    color: yellow;
+    margin: 0px 15px 10px 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#inner1:hover{
+    background-color: black;
+    font-weight: bold;
+}
+#pre1{
+    text-align: center;
+    margin: 50px 15px 10px 200px;
+    text-shadow: #0f1111;
+    color:black;
+}
+p{
+    text-align: center;
+    margin: 0px 15px 10px 300px;
+    text-shadow: #0f1111;
+    color:black;
+}
+#pre2{
+    text-align: center;
+    margin: -10px 15px 10px 180px;
+    text-shadow: #0f1111;
+    color:black;
+}
+
+
+h1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#p1{
+    font-weight: bold;
+    position: absolute;
+    margin: 200px 10px 10px 0px;
+}
+#p2{
+    font-weight: bold;
+    position: absolute;
+    margin: 200px 10px 10px 250px;
+}
+#cart{
+    height: 35px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    margin: 210px 10px 10px 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart:hover {
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+}
+#buy{
+    height: 35px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    margin: 210px 10px 10px 255px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buy:hover {
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+}
+#Course{
+    position: absolute;
+    color: black;
+    margin: 280px 10px 10px 50px;
+    font-weight:bold ;
+}
